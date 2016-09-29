@@ -12,6 +12,7 @@
 
             "type": "qemu",
             "format": "qcow2",
+	    "headless": "true",
             "accelerator": "kvm",
             "disk_size": "{{ user `disk_size`}}",
 
